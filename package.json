@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "type": "module",
   "license": "MIT",
+  "scripts": {
+    "format": "prettier --write ."
+  },
   "dependencies": {
     "prettier": "^3.9.10",
     "turbo": "^2.11.10"
