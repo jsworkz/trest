@@ -1,0 +1,22 @@
+{
+  "$schema": "https://www.schemastore.org/tsconfig",
+
+  "compilerOptions": {
+    "target": "es2022",
+
+    "module": "es2022",
+    "moduleResolution": "bundler",
+
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+
+    "skipLibCheck": true,
+
+    "strict": true,
+
+    "removeComments": true,
+    "incremental": true
+  }
+}

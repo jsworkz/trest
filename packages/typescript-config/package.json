@@ -1,0 +1,21 @@
+{
+  "name": "@trest/typescript-config",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "base.json",
+    "library.json"
+  ],
+  "dependencies": {
+    "prettier": "^3.9.10",
+    "turbo": "^2.11.10"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.16.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.16.1"
+}
