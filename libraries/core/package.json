@@ -2,6 +2,7 @@
   "name": "@trest/core",
   "version": "0.1.0",
   "description": "Core contract definition and validation library for restjs",
+  "type": "module",
   "license": "MIT",
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.cts",
@@ -29,7 +30,7 @@
   "devDependencies": {
     "@trest/typescript-config": "workspace:*",
     "tsdown": "^0.23.3",
-    "typescript": "^7.0.2"
+    "typescript": "^6.0.2"
   },
   "devEngines": {
     "packageManager": {
