@@ -197,6 +197,18 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2
 
+  libraries/nest:
+    devDependencies:
+      '@trest/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      tsdown:
+        specifier: ^0.23.3
+        version: 0.23.3(typescript@7.0.2)
+      typescript:
+        specifier: ^7.0.2
+        version: 7.0.2
+
   packages/typescript-config:
     dependencies:
       prettier:
