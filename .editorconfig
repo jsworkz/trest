@@ -1,0 +1,17 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = false
+indent_size = 4
+indent_style = tab
+
+[*.{yml,yaml,json,xml}]
+indent_size = 2
+indent_style = space
+
+[.prettierrc]
+indent_size = 2
+indent_style = space

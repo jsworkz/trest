@@ -1,0 +1,14 @@
+{
+  "useTabs": true,
+  "tabWidth": 4,
+
+  "overrides": [
+    {
+      "files": ["**.{yml,yaml,json,xml}", ".prettierrc"],
+      "options": {
+        "useTabs": false,
+        "tabWidth": 2
+      }
+    }
+  ]
+}
